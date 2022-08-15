@@ -23,9 +23,17 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/jquery/dist/jquery.min.js",
+              "node_modules/bootstrap/dist/css/bootstrap.bundle.js",
+              "src/lib/wow/wow.min.js",
+              "src/lib/easing/easing.min.js",
+              "src/lib/waypoints/waypoints.min.js",
+              "src/lib/owlcarousel/owl.carousel.min.js"
+            ]
           },
           "configurations": {
             "production": {
